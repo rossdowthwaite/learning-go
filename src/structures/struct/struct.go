@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+)
+
+// Example of a simple structure
 type Saiyan struct {
 	Name string
 	Power int
@@ -21,4 +26,9 @@ func main() {
 
 	// or even shorter
 	saiyan4 := Saiyan{"Vegeta", 9000}
+
+	fmt.Printf(saiyan1.Name)
+	fmt.Printf(saiyan2.Name)
+	fmt.Printf(saiyan3.Name)
+	fmt.Printf(saiyan4.Name)
 }
