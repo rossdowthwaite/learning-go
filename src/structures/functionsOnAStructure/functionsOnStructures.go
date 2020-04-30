@@ -1,5 +1,4 @@
 // Associating a method with a structure:
-// Type *Saiyan is the "reciever" of the Super method.
 
 package main
 
@@ -21,6 +20,7 @@ func main() {
 	fmt.Println(goku.Power) // => 10000  
 }
 
+// Type *Saiyan is the "reciever" of the Super method.
 func (s *Saiyan) Super() {
 	s.Power += 10000
 }
